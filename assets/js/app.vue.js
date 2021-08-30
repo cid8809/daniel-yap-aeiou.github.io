@@ -70,11 +70,11 @@ var experience = {
         },
         expDuration5: function () {
             let dateFrom = moment(new Date(2016, 05));
-            let dateTo = moment(new Date());
+            let dateTo = moment(new Date(2020, 06));
             let months = dateTo.diff(dateFrom, 'months');
             let duration = moment.duration(months, 'months');
             let result = duration.format("y [years] M [months]");
-            return "May 2016 - Present" + " (" + result + ")";
+            return "May 2016 - June 2020" + " (" + result + ")";
         }
     },
     methods: {}
